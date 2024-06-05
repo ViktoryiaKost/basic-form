@@ -1,0 +1,98 @@
+# .idea folder (PhpStorm project files)
+.idea/
+
+# Ignore PhpStorm specific files
+*.iml
+*.iws
+*.ipr
+
+# Ignore deployment configs
+deployment_config.json
+
+# Ignore user-specific configurations
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# PHP Composer dependencies
+vendor/
+
+# Node.js dependencies
+node_modules/
+
+# Compiled source files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# PHPUnit
+.phpunit.result.cache
+
+# Vagrant
+.vagrant/
+
+# JetBrains IDEs
+*.sublime-project
+*.sublime-workspace
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+.env.test
+.env.test.local
+.env.production.local
+
+# Ignore IDE project files (NetBeans)
+nbproject/private/
+
+# Symfony directories
+/var/
+/vendor/
+/public/bundles/
+/node_modules/
+
+# Laravel directories
+/bootstrap/cache/
+/storage/
+
+# Ignore build directories
+/build/
+/dist/
+/out/
+/target/
+
+# Ignore backup files
+*.bak
+*.swp
+*.swo
+
+# Composer package lock file
+composer.lock
+
+# npm package lock file
+package-lock.json
+
+# Yarn package lock file
+yarn.lock
+
+# PHPStorm XML metadata
+.idea/
+
+# Other potential IDE or tool settings
+*.vscode/
+
+# Custom settings (add any additional patterns as needed)
+
